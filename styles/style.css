@@ -159,7 +159,9 @@ body {
 .distance {
   margin-left: 10px;
 }
-
+.view-all {
+  display: none;
+}
 /*---------------
         footer
 -------------------*/
@@ -206,64 +208,4 @@ footer hr {
 }
 .footer-social-media a:hover {
   color: #e02c6d;
-}
-
-/*---------------
-        responsive
--------------------*/
-
-/*---------------
-    tablet view
--------------------*/
-
-@media screen and (min-width: 577px) and (max-width: 768px) {
-
-  /* --------------------
-        banner section
------------------------------*/
-  .banner {
-    width: 734px;
-    height: 398px;
-    margin: auto;
-    margin-top: 50px;
-    margin-left: 50px;
-    border-radius: 20px;
-  }
-  .banner-text {
-    margin-left: 75px;
-    width: 330px;
-    height: 250px;
-  }
-  .banner-heading {
-    font-weight: 700;
-    font-size: 30px;
-  }
-  .banner-paragraph {
-    font-weight: 400;
-    font-size: 14px;
-    margin-top: 20px;
-    width: 90%;
-  }
-  .banner-btn {
-    width: 161px;
-    height: 48px;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  .banner-image {
-    width: 323px;
-    height: 340px;
-    margin-top: 58px;
-  }
-}
-/* --------------------
-        aside-blog section
------------------------------*/
-.aside-blog {
-  margin: auto;
-  margin-top: 130px;
-  width: 1321px;
-  display: flex;
 }
