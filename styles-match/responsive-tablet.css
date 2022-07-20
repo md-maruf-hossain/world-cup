@@ -3,10 +3,13 @@
 --------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 577px) and (max-width: 834px) {
-
   /* --------------------
           banner section
   -----------------------------*/
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .banner {
     width: 734px;
     height: 398px;
@@ -71,7 +74,7 @@
   /* --------------------
         blog section
 -----------------------------*/
-  .blogs{
+  .blogs {
     grid-template-columns: 400px 200px;
     grid-row-gap: 15px;
     margin: auto;
@@ -128,5 +131,3 @@
     display: none;
   }
 }
-
-

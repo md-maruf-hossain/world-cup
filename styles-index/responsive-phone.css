@@ -3,6 +3,10 @@
 --------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 280px) and (max-width: 576px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   /* --------------------
           banner section
   -----------------------------*/
@@ -28,7 +32,6 @@
     font-weight: 600;
     font-size: 25px;
     text-align: center;
-
   }
   .banner-paragraph {
     text-align: center;
@@ -38,7 +41,6 @@
     overflow: hidden;
   }
   .banner-paragraph p {
-
   }
   .banner-btn {
     width: 161px;
@@ -64,27 +66,27 @@
     display: flex;
     flex-direction: column;
   }
-  .aside-section{
+  .aside-section {
     background-color: transparent;
   }
-  .match-btn{
+  .match-btn {
     border: none;
   }
   /* --------------------
           aside section
   -----------------------------*/
-.blog-section{
+  .blog-section {
     width: 353px;
-height: 388px;
-display: flex;
-flex-direction: column;
-margin-left: -30px;
-}
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+  }
 
   /* --------------------
           footer section
   -----------------------------*/
-  footer{
+  footer {
     margin-top: 3084px;
     margin-left: 0;
     height: 412px;
@@ -96,15 +98,15 @@ margin-left: -30px;
     background: #161616;
     opacity: 0.75;
   }
-  .footer-heading{
+  .footer-heading {
     font-weight: 600;
     font-size: 15px;
     padding-top: 25px;
     margin-left: 40%;
     padding: 0;
   }
-  footer hr{
-      margin-top: 0px;
+  footer hr {
+    margin-top: 0px;
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
   .footer-info {
@@ -114,29 +116,10 @@ margin-left: -30px;
     margin-left: 100px;
     text-align: center;
   }
-  .footer-info p{
+  .footer-info p {
     margin-top: 10px;
   }
-.footer-social-media{
+  .footer-social-media {
     display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 }
