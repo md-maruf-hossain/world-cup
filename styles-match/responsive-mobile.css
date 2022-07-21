@@ -2,7 +2,7 @@
                           w e b p a g e - 0 1
 --------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (min-width: 280px) and (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
   html,
   body {
     overflow-x: hidden;
@@ -36,9 +36,6 @@
   .banner-paragraph {
     text-align: center;
     height: 50px;
-    white-space: no-wrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
   }
   .banner-paragraph p {
   }
